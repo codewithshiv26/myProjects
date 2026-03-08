@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://narita-airport.imagewave.pictures/DukuU7jHfRwFC557Ci3gEX);
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    op
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    border:3px solid black;
+}
+button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+#save-btn{
+    background: rgb(48, 88, 246);
+}
+#increment-btn {
+    background: rgb(246, 59, 59);
+}
+#clear-btn{
+    background: red;
+    display:block;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
