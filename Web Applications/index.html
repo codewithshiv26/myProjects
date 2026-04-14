@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <title>Leads Storage</title>
+    <style>
+        button{
+            margin:0 auto;
+            padding : 10px ;
+            font-weight: bold;
+            color: white;
+            background-color:#5f9341;
+            border:1px solid #5f9341;
+            max-width: 302px;
+        }
+         #delete-btn {
+          background-color: white;
+          color: #5f9341;
+        }
+        label{
+            color: #5f9341 ;
+            font-weight: 900;
+        }
+        input{
+   width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid ;
+    margin-bottom: 4px;
+        }
+        ul {
+            list-style: none;
+            margin-top: 20px;
+            padding-left: 0px; 
+        }
+        li{
+            margin-top: 5px;
+        }
+       li a {
+            color: #5f9341;
+        }
+    </style>
+</head>
+<body>
+    <label>Enter URL:</label>
+    <input type="text" id="input"></input>
+    <button id="save">SAVE INPUT</button>
+    <button id="delete-btn">DELETE ALL</button>
+    <ul id="ulEL"></ul>
+<script type="module" src="flop.js"></script>
+</body>
+</html>
