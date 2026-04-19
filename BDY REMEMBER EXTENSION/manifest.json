@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "BDAY REMEMBER",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTabs"
+    ]
+}

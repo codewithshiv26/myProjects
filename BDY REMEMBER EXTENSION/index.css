@@ -1,0 +1,35 @@
+body{
+    background-color: #ee7448;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+ul {
+    padding: 0;              /* left spacing hata dega */
+    text-align: left;        /* list left me aa jayegi */
+    display: inline-block;   /* center layout ke andar proper dikhe */
+}
+img{
+    border-radius: 50%;
+}
+input {
+    padding: 10px;
+    width: 220px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(42, 238, 180);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(20, 200, 150);
+}
